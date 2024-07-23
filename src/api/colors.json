@@ -1,0 +1,15 @@
+{
+  "primary": {
+    "base": "#FF5151",
+    "light": "#FFEFE7"
+  },
+  "tertiary": {
+    "light": "#E8F0FB",
+    "base": "#3786F1",
+    "dark": "#161E54"
+  },
+  "pink": {
+    "light": "#FDEBF9",
+    "base": "#EE61CF"
+  }
+}

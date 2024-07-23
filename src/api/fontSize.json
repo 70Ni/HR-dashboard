@@ -1,0 +1,25 @@
+{
+  "titilesmall": [
+    "16px",
+    {
+      "lineHeight": "28px",
+      "fontWeight": "500"
+    }
+  ],
+  "Indicator": [
+    "14px",
+    {
+      "lineHeight": "24px",
+      "fontWeight": "400"
+    }
+  ],
+  "subHeader": ["18px", "28px"],
+  "count": [
+    "32px",
+    {
+      "lineHeight": "28px",
+      "fontWeight": "500"
+    }
+  ],
+  "countlg": ["42px", "28px"]
+}
