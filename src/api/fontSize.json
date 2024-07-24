@@ -6,6 +6,20 @@
       "fontWeight": "500"
     }
   ],
+  "taskHeader": [
+    "16px",
+    {
+      "lineHeight": "24px",
+      "fontWeight": "400"
+    }
+  ],
+  "bodySmall": [
+    "10px",
+    {
+      "lineHeight": "14px",
+      "fontWeight": "400"
+    }
+  ],
   "Indicator": [
     "14px",
     {
@@ -13,7 +27,20 @@
       "fontWeight": "400"
     }
   ],
-  "subHeader": ["18px", "28px"],
+  "Header": [
+    "24px",
+    {
+      "lineHeight": "42px",
+      "fontWeight": "500"
+    }
+  ],
+  "subHeader": [
+    "18px",
+    {
+      "lineHeight": "28px",
+      "fontWeight": "500"
+    }
+  ],
   "count": [
     "32px",
     {
