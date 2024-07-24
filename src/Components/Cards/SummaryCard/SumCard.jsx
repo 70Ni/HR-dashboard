@@ -9,8 +9,10 @@ function SumCard({ color, header, count, notificaton, key }) {
       style={{ backgroundColor: color.bg }}
     >
       <div className="content flex flex-col items-start ">
-        <div className="inicator text-titilesmall ">{header}</div>
-        <div className="indicator-number text-count py-4 font-medium">
+        <div className="inicator text-titilesmall text-tertiary-dark">
+          {header}
+        </div>
+        <div className="indicator-number text-count py-4 font-medium text-tertiary-dark">
           {count}
         </div>
         <div
