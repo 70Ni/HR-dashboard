@@ -6,10 +6,15 @@
   "tertiary": {
     "light": "#E8F0FB",
     "base": "#3786F1",
-    "dark": "#161E54"
+    "dark": "#161E54",
+    "shade": "#1B204A"
   },
   "pink": {
     "light": "#FDEBF9",
     "base": "#EE61CF"
-  }
+  },
+  "taskBgColor": "#FAFAFA",
+  "SecoTitleColor": "#303030",
+  "primSubTitleColor": "#686868",
+  "borderColor": "#E0E0E0"
 }
