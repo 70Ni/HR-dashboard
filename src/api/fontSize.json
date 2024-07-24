@@ -23,8 +23,15 @@
   "Indicator": [
     "14px",
     {
-      "lineHeight": "24px",
+      "lineHeight": "20px",
       "fontWeight": "400"
+    }
+  ],
+  "subtitleSmall": [
+    "14px",
+    {
+      "lineHeight": "18px",
+      "fontWeight": "500"
     }
   ],
   "Header": [
