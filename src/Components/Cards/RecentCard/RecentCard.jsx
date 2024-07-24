@@ -19,7 +19,9 @@ function RecentCard() {
             </div>
           </div>
           <div className="activity-wrapper flex items-center justify-between">
-            <div className="text-Indicator text-left">Today you makes 12 Activity</div>
+            <div className="text-Indicator text-left pr-3">
+              Today you makes 12 Activity
+            </div>
             <div className="Button text-subtitleSmall px-4 py-[10px] rounded text-white bg-primary-base">
               See All Activity
             </div>
