@@ -16,5 +16,6 @@
   "taskBgColor": "#FAFAFA",
   "SecoTitleColor": "#303030",
   "primSubTitleColor": "#686868",
-  "borderColor": "#E0E0E0"
+  "borderColor": "#E0E0E0",
+  "NavShade": "#FAFAFA"
 }
