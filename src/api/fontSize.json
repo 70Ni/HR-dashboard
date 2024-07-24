@@ -20,6 +20,13 @@
       "fontWeight": "400"
     }
   ],
+  "menuCategory": [
+    "12px",
+    {
+      "lineHeight": "18px",
+      "fontWeight": "500"
+    }
+  ],
   "Indicator": [
     "14px",
     {
