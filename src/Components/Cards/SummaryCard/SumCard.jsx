@@ -16,7 +16,7 @@ function SumCard({ color, header, count, notificaton, key }) {
           {count}
         </div>
         <div
-          className="indi-note text-Indicator leading-6"
+          className="indi-note text-taskHeader"
           style={{ color: color.textColor }}
         >
           {notificaton}
