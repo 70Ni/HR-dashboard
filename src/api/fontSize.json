@@ -62,5 +62,11 @@
       "fontWeight": "500"
     }
   ],
-  "countlg": ["42px", "28px"]
+  "countlg": [
+    "42px",
+    {
+      "lineHeight": "63px",
+      "fontWeight": "500"
+    }
+  ]
 }
