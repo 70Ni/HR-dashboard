@@ -1,11 +1,19 @@
- 
+textarea:focus,
+input:focus {
+  outline: none;
+}
 
+*:focus {
+  outline: none;
+}
 
+#dashboard {
+  fill: green;
+}
 
 .App {
   text-align: center;
   min-height: 100vh;
-
 }
 
 .App-logo {
