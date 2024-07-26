@@ -1,18 +1,26 @@
 import React from "react";
 
-function NavigationSection({ Category, menuItems, start, stop }) {
+const responsive =
+  "menu-item ml-6 text-taskHeader text-primSubTitleColor max-md:hidden";
+const expand = "menu-item ml-6 text-taskHeader text-primSubTitleColor";
+
+const mSm = "flex px-4 py-[16px]";
+const mLg = "flex px-[30px] py-[16px]";
+
+function NavigationSection({ Category, menuItems, start, stop, collapse }) {
   return (
     <div className="mainmenu flex flex-col items-start my-10">
-      <div className="menu-category text-lg text-menuCategory text-primSubTitleColor px-[30px] py-[10px] opacity-50">
+      <div
+        className="menu-category text-lg text-menuCategory text-primSubTitleColor px-[30px] py-[10px] opacity-50"
+        style={collapse && { padding: "0px1,4px" }}
+      >
         {Category}
       </div>
       <div className="menu-item">
         {menuItems.slice(start, stop).map((item) => (
-          <div className="menu-item flex px-[30px] py-[16px]">
+          <div className={collapse ? mSm : mLg}>
             <img src={item.NavIcon} alt="" />
-            <div className="menu-item ml-6 text-taskHeader text-primSubTitleColor">
-              {item.Navname}
-            </div>
+            <div className={collapse ? responsive : expand}>{item.Navname}</div>
           </div>
         ))}
       </div>
